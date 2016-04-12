@@ -30,10 +30,10 @@ public class EmployeeTest {
         
         // Put employees in Hash Map
         Map<String, Employee> empList = new HashMap<>();
-        empList.put(emp3.getSsn(), emp3);
-        empList.put(emp2.getSsn(), emp2);
-        empList.put(emp4.getSsn(), emp4);
-        empList.put(emp1.getSsn(), emp1);
+        empList.put("3", emp3);
+        empList.put("2", emp2);
+        empList.put("4", emp4);
+        empList.put("1", emp1);
 
         // Create a collection to loop through Map values
         System.out.println("\nHash Map");
@@ -49,10 +49,10 @@ public class EmployeeTest {
         
         // Put employees in Tree Map (order matters)
         Map<String, Employee> empList2 = new TreeMap<>();
-        empList2.put(emp3.getSsn(), emp3);
-        empList2.put(emp2.getSsn(), emp2);
-        empList2.put(emp4.getSsn(), emp4);
-        empList2.put(emp1.getSsn(), emp1);
+        empList2.put("3", emp3);
+        empList2.put("2", emp2);
+        empList2.put("4", emp4);
+        empList2.put("1", emp1);
         
         // Create a collection to loop through Map keys
         System.out.println("\nTree Map");
